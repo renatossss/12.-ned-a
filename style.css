@@ -1,1 +1,19 @@
+/[XII]/  
+    index.html  
+    style.css
+/* Elementam ar id "main-container" */
+#main-container {
+    display: flex;
+}
 
+/* Elementam ar id "side-content" */
+#side-content {
+    width: 30%;
+}
+
+/* Elementam ar id "photo-container" */
+#photo-container {
+    display: grid;
+    width: 70%;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+}
