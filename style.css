@@ -17,3 +17,131 @@
     width: 70%;
     grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
 }
+/* Vispārējie stili */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header stili */
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+/* Navigācijas stili */
+nav {
+    background-color: #f4f4f4;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #007BFF;
+}
+
+/* Main-container stili */
+#main-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+/* Side-content stili */
+#side-content {
+    width: 30%;
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+
+/* Photo-container stili */
+#photo-container {
+    display: grid;
+    width: 70%;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 20px;
+}
+
+#photo-container img {
+    width: 100%;
+    border-radius: 8px;
+    transition: transform 0.3s;
+}
+
+#photo-container img:hover {
+    transform: scale(1.05);
+}
+/* Vispārējie stili */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header stili */
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+/* Navigācijas stili */
+nav {
+    background-color: #f4f4f4;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #007BFF;
+}
+
+/* Main-container stili */
+#main-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+/* Side-content stili */
+#side-content {
+    width: 30%;
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+
+/* Photo-container stili */
+#photo-container {
+    display: grid;
+    width: 70%;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 20px;
+}
+
+#photo-container img {
+    width: 100%;
+    border-radius: 8px;
+    transition: transform 0.3s;
+}
+
+#photo-container img:hover {
+    transform: scale(1.05);
+}
